@@ -1,6 +1,6 @@
 # User options
 use_precompile <- FALSE
-use_gpu <- FALSE
+use_gpu <- TRUE
 use_mingw <- FALSE
 
 if (.Machine$sizeof.pointer != 8){
